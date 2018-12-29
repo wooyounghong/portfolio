@@ -44,7 +44,7 @@ class Navbar extends Component {
             this.handleRoute('Skills');
           }}
         >
-          Blogs
+          Skills
         </div>
         <div
           className="navbar-item"

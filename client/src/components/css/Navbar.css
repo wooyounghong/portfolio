@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;  */
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   display: flex;
   flex: 1;
   justify-content: center;
@@ -20,6 +20,10 @@
 }
 
 .navbar-item {
-  padding: calc(30px - 1%);
-  font-size: 1em;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  line-height: 70px;
+  padding: calc(50px - 2%) calc(50px - 1%);
+  font-size: 1.5em;
+  font-weight: 400;
+  color: black;
 }
