@@ -5,6 +5,8 @@ import Navbar from './Navbar';
 // import { LandingPage } from './LandingPage';
 import Main from './Main';
 
+// App component renders Navbar Component and Main Component
+
 class App extends Component {
   render() {
     return (
