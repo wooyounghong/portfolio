@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './css/Navbar.css';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   constructor() {
@@ -22,46 +23,25 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar-container">
-        <div
-          className="navbar-item active"
-          onClick={() => {
-            this.handleRoute('Home');
-          }}
-        >
+        <Link to="/" className="navbar-item">
           Home
-        </div>
-        <div
-          className="navbar-item"
-          onClick={() => {
-            this.handleRoute('About');
-          }}
-        >
+        </Link>
+
+        <Link to="/about" className="navbar-item">
           About
-        </div>
-        <div
-          className="navbar-item"
-          onClick={() => {
-            this.handleRoute('Skills');
-          }}
-        >
+        </Link>
+
+        <Link to="/skills" className="navbar-item">
           Skills
-        </div>
-        <div
-          className="navbar-item"
-          onClick={() => {
-            this.handleRoute('Resume');
-          }}
-        >
+        </Link>
+
+        <Link to="/resume" className="navbar-item">
           Resume
-        </div>
-        <div
-          className="navbar-item"
-          onClick={() => {
-            this.handleRoute('Contact');
-          }}
-        >
+        </Link>
+
+        <Link to="/contact" className="navbar-item">
           Contact
-        </div>
+        </Link>
       </div>
     );
   }

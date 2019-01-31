@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 // import logo from '../logo.svg';
 import './css/App.css';
 import Navbar from './Navbar';
-import { LandingPage } from './LandingPage';
+// import { LandingPage } from './LandingPage';
+import Main from './Main';
 
 class App extends Component {
   render() {
     return (
       <div className="app-container">
         <Navbar />
-        <LandingPage />
+        <Main />
       </div>
     );
   }
