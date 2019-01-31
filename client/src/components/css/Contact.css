@@ -1,0 +1,30 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-image {
+  margin: 30px 0px;
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+}
+.contact-header {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  margin-top: 2.5%;
+  font-size: 50px;
+  margin-bottom: 1%;
+  color: rgba(64, 104, 45, 0.747);
+}
+.contact-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact-footer-items {
+  flex: 1 1 1;
+  margin: 20px 20px;
+}
+.contact-gmail {
+  width: 40px;
+}
