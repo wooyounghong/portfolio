@@ -6,15 +6,18 @@ const AboutMe = () => (
     <div className="about-me-items">
       <div className="about-me-header">About Me</div>
       <div className="about-me-description">
-        <strong>Name: </strong> Wayne Wooyoung Hong
+        <strong>Name: </strong>{' '}
+        <span className="about-me-font-description">Wayne Wooyoung Hong</span>
       </div>
       <div className="about-me-description">
-        <strong>Age: </strong> 28 years old
+        <strong>Age: </strong>{' '}
+        <span className="about-me-font-description">28 years old</span>
       </div>
       <div className="about-me-description">
-        <strong>Location: </strong> New York, NY
+        <strong>Location: </strong>{' '}
+        <span className="about-me-font-description">New York, NY</span>
       </div>
-      <div className="about-me-description">
+      <div className="about-me-description about-me-font-description">
         I am a full stack developer. I have expertise in Javascript and its
         frameworks such as React and Angular. Also, I have experience in using
         back-end frameworks such as Node.js and databases such as SQL and NoSQL.
