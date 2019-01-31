@@ -22,7 +22,8 @@ const AboutMe = () => (
         frameworks such as React and Angular. Also, I have experience in using
         back-end frameworks such as Node.js and databases such as SQL and NoSQL.
         I love learning about new technologies and am currently interested in
-        learning about cloud technologies such as Microsoft Azure and AWS.
+        learning about cloud technologies such as Microsoft Azure and AWS. As a
+        proof to being an animal lover, I have two Tabby cats! :)
       </div>
     </div>
     <div className="about-me-items">
