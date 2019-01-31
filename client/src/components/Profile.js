@@ -1,11 +1,19 @@
 import React from 'react';
+import './css/Profile.css';
+import AboutMe from './AboutMe';
 
-// About Component that will explain about myself;
+// Profile Component that will explain about myself;
 
 const Profile = () => (
-  <div>
-    About me
-    <div>Hello</div>
+  <div className="profile-container">
+    <header className="profile-header">Profile</header>
+    <div className="profile-description">
+      <strong>
+        I'm a creative software developer, marketer, and an animal lover!
+        <hr />
+      </strong>
+    </div>
+    <AboutMe />
   </div>
 );
 

@@ -8,18 +8,8 @@ class Navbar extends Component {
     this.state = {
       current: 'root',
     };
-    this.handleRoute = this.handleRoute.bind(this);
   }
-  handleRoute(current) {
-    this.setState(
-      {
-        current: current,
-      },
-      () => {
-        console.log(this.state);
-      }
-    );
-  }
+
   render() {
     return (
       <div className="navbar-container">
