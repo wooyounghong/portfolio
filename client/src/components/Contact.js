@@ -32,7 +32,11 @@ const Contact = () => (
       </div>
       <div className="contact-footer-items">
         <a href={'mailto:hongwy1128@gmail.com'}>
-          <img src={require('../image/gmail.svg')} className="contact-gmail" />
+          <img
+            src={require('../image/gmail.svg')}
+            className="contact-gmail"
+            alt="e-mail logo"
+          />
         </a>
       </div>
     </div>
