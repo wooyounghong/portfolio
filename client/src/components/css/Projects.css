@@ -4,6 +4,7 @@
   align-items: center;
   color: rgba(64, 104, 45, 0.747);
 }
+
 .projects-header {
   color: rgba(64, 104, 45, 0.747);
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
@@ -11,6 +12,7 @@
   font-size: 50px;
   margin-bottom: 1%;
 }
+
 .projects-header-description {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -23,6 +25,7 @@
   text-align: center;
   margin-top: 30px;
   display: flex;
+  margin-left: 30px;
 }
 
 .project-item-container {
@@ -34,6 +37,7 @@
   font-size: 30px;
   margin: 0 50px;
 }
+
 .project-item-title {
   color: rgba(0, 59, 136, 0.747);
   /* margin-bottom:  */
@@ -43,7 +47,6 @@
   font-weight: 400;
   font-size: 15px;
   color: rgba(22, 25, 29, 0.747);
-
   margin-bottom: 10px;
 }
 
