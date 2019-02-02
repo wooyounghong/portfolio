@@ -12,8 +12,14 @@ class ProjectsComponent extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="projects-container">
         <header className="projects-header">My Projects</header>
+        <div className="projects-header-description">
+          <strong>
+            Practice makes perfect! (placeholder)
+            <hr />
+          </strong>
+        </div>
         {this.state.projectData.map((project, i) => (
           <ProjectItem project={project} key={i} />
         ))}

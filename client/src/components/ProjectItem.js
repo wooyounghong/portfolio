@@ -6,17 +6,26 @@ const ProjectsItem = ({ project }) => {
   // console.log('props', project); // succeeded data flow;
   // console.log('video data', project.video);
   return (
-    <div className="projects-container">
-      <div className="projects-items">
-        <div>{project.title}</div>
-        <div>{project.description}</div>
-      </div>
-
+    <div className="projects-items">
       {project.video !== null ? (
-        <ProjectVideoComponent video={project.video} />
+        <ProjectVideoComponent projectVideo={project.video} />
       ) : (
         <ProjectImageComponent projectImage={project.image} />
       )}
+      <div className="project-item-container">
+        <div className="project-item-title">{project.title}</div>
+        <div className="project-item-description">
+          {project.description}
+          <hr />
+        </div>
+        <div className="project-item-list">
+          <ul>
+            {project.list.map(bullet => {
+              return <li className="project-item-list">{bullet}</li>;
+            })}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

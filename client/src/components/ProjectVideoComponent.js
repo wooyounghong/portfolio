@@ -1,4 +1,5 @@
 import React from 'react';
+import Youtube from 'react-youtube';
 
 class ProjectVideoComponent extends React.Component {
   constructor(props) {
@@ -8,8 +9,16 @@ class ProjectVideoComponent extends React.Component {
     };
   }
   render() {
-    const projectVideo = this.props.video;
-    return <div className="projects-items">{projectVideo}</div>;
+    const projectVideo = this.props.projectVideo;
+    const opts = {
+      height: '300',
+      width: '550',
+    };
+    return (
+      <div className="projects-items">
+        <Youtube videoId={projectVideo} opts={opts} />
+      </div>
+    );
   }
 }
 
