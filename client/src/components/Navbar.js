@@ -21,8 +21,8 @@ class Navbar extends Component {
           Profile
         </Link>
 
-        <Link to="/skills" className="navbar-item">
-          Skills
+        <Link to="/projects" className="navbar-item">
+          Projects
         </Link>
 
         <Link to="/resume" className="navbar-item">

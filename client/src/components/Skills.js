@@ -1,9 +1,19 @@
 import React from 'react';
 
-const Skills = () => (
-  <div>
-    <div>Skills Component</div>
-  </div>
-);
+class Projects extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      placeholder: null,
+    };
+  }
+  render() {
+    return (
+      <div>
+        <div>Projects Component</div>
+      </div>
+    );
+  }
+}
 
-export default Skills;
+export default Projects;
