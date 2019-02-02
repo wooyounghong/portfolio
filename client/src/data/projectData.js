@@ -23,6 +23,17 @@ const projectsData = [
     video: null,
     image: require('../image/image-placeholder1.png'),
   },
+  {
+    title: 'BathTub, inc',
+    description:
+      'E-commerce web application to shop for rubber ducks, successfully deployed using Heroku.',
+    list: [
+      'Provided customers with persisted cart sessions by applying React-Redux, Express, PostgresQL, and Sequelize',
+      'Embedded Google OAuth authentication capabilities and created test cases implementing TDD',
+    ],
+    video: null,
+    image: require('../image/image-placeholder1.png'),
+  },
 ];
 
 export default projectsData;
