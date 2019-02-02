@@ -1,0 +1,17 @@
+.projects-header {
+  text-align: center;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  margin-top: 2.5%;
+  font-size: 50px;
+  margin-bottom: 1%;
+  color: rgba(64, 104, 45, 0.747);
+}
+
+.projects-container {
+  display: flex;
+}
+
+.projects-items {
+  flex: 1 1;
+  text-align: center;
+}

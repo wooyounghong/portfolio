@@ -4,7 +4,7 @@ import LandingPage from './LandingPage';
 import Resume from './Resume';
 import Contact from './Contact';
 import Profile from './Profile';
-import Projects from './Skills';
+import Projects from './ProjectsComponent';
 
 const Main = () => (
   <Switch>
