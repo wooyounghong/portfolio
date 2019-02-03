@@ -11,7 +11,7 @@ const AboutMe = () => (
       </div>
       <div className="about-me-description">
         <strong>Age: </strong>{' '}
-        <span className="about-me-font-description">28 years old</span>
+        <span className="about-me-font-description">27 years old</span>
       </div>
       <div className="about-me-description">
         <strong>Location: </strong>{' '}
