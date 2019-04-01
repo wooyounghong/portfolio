@@ -1,4 +1,4 @@
-### This is Wayne Wooyoung Hong's personal website using React for front-end, Node.js and Express for back-end, Heroku for deployment and live at [I'm an inline-style link with title](https://www.wayne-hong.com)
+### This is Wayne Wooyoung Hong's personal website using React for front-end, Node.js and Express for back-end, Heroku for deployment and live at [wayne-hong.com](www.wayne-hong.com)
 
 ### Purpose:
 
@@ -7,8 +7,10 @@ This website is to describe who Wayne is and to showcase the projects that Wayne
 #### Additional Installed Libraries:
 
 - `react` by using `create-react-app`
-- `react-router` for routes
+- `react-router` for client-side routing
 - `react-social-icons` for Social Media Logos
+- `animate.css` for easier transitional design
+- `react-youtube` to add YouTube playlist
 
 #### Incoming updates:
 

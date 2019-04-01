@@ -1,6 +1,7 @@
 import React from 'react';
 import Youtube from 'react-youtube';
 
+/// CHANGE THIS TO FUNCTIONAL COMPONENT ////
 class ProjectVideoComponent extends React.Component {
   constructor(props) {
     super(props);

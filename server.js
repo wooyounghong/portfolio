@@ -17,8 +17,12 @@ app.get('/api', (req, res, next) => {
 });
 
 // Anything that doesn't match the above, send back index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/client/build/index.html'));
+app.get('*', (req, res, next) => {
+  try {
+    res.sendFile(path.join(__dirname + '/client/build/index.html'));
+  } catch (error) {
+    next(error);
+  }
 });
 
 app.listen($PORT, () => {

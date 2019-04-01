@@ -3,8 +3,6 @@ import ProjectVideoComponent from './ProjectVideoComponent';
 import ProjectImageComponent from './ProjectImageComponent';
 
 const ProjectsItem = ({ project }) => {
-  // console.log('props', project); // succeeded data flow;
-  // console.log('video data', project.video);
   return (
     <div className="projects-items">
       {project.video !== null ? (
@@ -20,8 +18,12 @@ const ProjectsItem = ({ project }) => {
         </div>
         <div className="project-item-list">
           <ul>
-            {project.list.map(bullet => {
-              return <li className="project-item-list">{bullet}</li>;
+            {project.list.map((listItem, i) => {
+              return (
+                <li className="project-item-list" key={i}>
+                  {listItem}
+                </li>
+              );
             })}
           </ul>
         </div>
