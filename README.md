@@ -1,4 +1,4 @@
-### This is Wayne Wooyoung Hong's personal website using React for front-end, Node.js and Express for back-end, Heroku for deployment and live at [wayne-hong.com](www.wayne-hong.com)
+### This is Wayne Wooyoung Hong's personal website using React for front-end, Node.js and Express for back-end, Heroku for deployment and live at [wayne-hong.com](http://wayne-hong.com)
 
 ### Purpose:
 
